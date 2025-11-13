@@ -21,5 +21,5 @@ variable "my_enviroment" {
 variable "read_only_user_name" {
   description = "IAM user to grant EKS cluster admin access. Leave empty to skip creating access_entries."
   type        = string
-  default     = "terraform"
+  default     = "cli"
 }
